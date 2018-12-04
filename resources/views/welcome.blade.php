@@ -16,9 +16,7 @@
     <body>
         
         <div id="app">
-            <h1>Yey!</h1>
-            <v-btn primary>Material Button</v-btn>
-            <example-component></example-component>
+            <base-app></base-app>
         </div>
             
         <script src="{{ asset('js/app.js') }}"></script>

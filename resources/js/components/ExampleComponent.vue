@@ -31,10 +31,10 @@
                     'X-Requested-With': 'XMLHttpRequest'
                     }
             };
-            let api= 'http://www.shraddha.lk/stvapi/public/video/41584';
+            let api= '/api/videos';
             // let api= 'https://api.coindesk.com/v1/bpi/currentprice.json';
             // let api= 'https://jsonplaceholder.typicode.com/todos/1';
-            axios.get(api, config).then((response) => {
+            axios.get(api).then((response) => {
                  console.log(response);
                  this.loading = 'finished';
             });
